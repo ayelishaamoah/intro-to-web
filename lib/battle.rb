@@ -4,14 +4,8 @@ get '/' do
   "Hello"
 end
 
-get '/secret' do
-  "You've reached a secret webpage"
-end
-
-get '/shotgun' do
-  "The routes have updated"
-end
-
-get '/latest' do
-  "The routes have updated again"
+get '/cat' do
+  "<div>
+  <img src='http://bit.ly/1eze8aE' alt='Picture of a cat' style='border: 2px dashed red'>
+  </div>"
 end
